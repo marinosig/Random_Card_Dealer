@@ -13,7 +13,6 @@ window.onload = function() {
   let arrSymbol = ["♠", "♣", "♥", "♦"];
 
   let DivSuit = document.createElement("div");
-  // DivSuit.classList.add("card");
   DivSuit.setAttribute("class", "card");
   DivSuit.innerHTML =
     "<span class=card" +
@@ -34,5 +33,3 @@ window.onload = function() {
   console.log(arrSuit[suit]);
   console.log(arrNumber[numbers]);
 };
-
-console.log("Hello Rigo from the console!");
