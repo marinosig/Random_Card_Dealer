@@ -3,7 +3,7 @@ body {
   background-color: #008b44;
 }
 .card {
-  display: inline-block;
+  display: flex;
   margin: auto;
   height: 400px;
   width: 275px;
@@ -31,7 +31,7 @@ body {
 
 #UP {
   position: absolute;
-
+  top: 0px;
   left: 20px;
   font-size: 80px;
 }
@@ -42,15 +42,14 @@ body {
   right: 20px;
   font-size: 70px;
   font-weight: bold;
+  transform: rotate(180deg);
 }
 
 #NUMBER {
   position: absolute;
-  left: 40%;
-  top: 35%;
+  display: flex;
+  left: 50%;
+  top: 50%;
   font-size: 80px;
-}
-
-div {
-  vertical-align: middle !important;
+  transform: translate(-50%, -50%);
 }
